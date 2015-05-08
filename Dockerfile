@@ -6,4 +6,4 @@ RUN yum -y update; yum clean all
 RUN yum -y install httpd; yum clean all
 
 EXPOSE 80
-CMD [ "/usr/bin/httpd", "start"]
+CMD [ "/usr/sbin/httpd", "start"]
